@@ -1116,7 +1116,7 @@ namespace Newtonsoft.Json.Utilities
         }
     }
 
-    internal readonly struct TypeNameKey : IEquatable<TypeNameKey>
+    internal struct TypeNameKey : IEquatable<TypeNameKey>
     {
         internal readonly string AssemblyName;
         internal readonly string TypeName;

@@ -248,7 +248,7 @@ namespace Newtonsoft.Json.Utilities
 #endif
         }
 
-        internal readonly struct TypeConvertKey : IEquatable<TypeConvertKey>
+        internal struct TypeConvertKey : IEquatable<TypeConvertKey>
         {
             public Type InitialType { get; }
 

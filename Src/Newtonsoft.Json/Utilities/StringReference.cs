@@ -27,7 +27,7 @@ using System;
 
 namespace Newtonsoft.Json.Utilities
 {
-    internal readonly struct StringReference
+    internal struct StringReference
     {
         private readonly char[] _chars;
         private readonly int _startIndex;
